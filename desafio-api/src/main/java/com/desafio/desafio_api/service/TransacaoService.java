@@ -27,4 +27,8 @@ public class TransacaoService {
             throw new RuntimeException();
         }
     }
+
+    public void deleteAll() {
+        transacaoList.clear();
+    }
 }
